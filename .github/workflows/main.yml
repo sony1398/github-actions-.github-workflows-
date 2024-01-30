@@ -27,5 +27,7 @@ jobs:
        - name: message
          run: echo "Hi Everyone, welcome!"
        - name: print goodbye
-         run: echo "good-bye!"
+         run: | 
+                echo "First output"
+                echo "Second output"
        
