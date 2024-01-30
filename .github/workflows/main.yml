@@ -1,0 +1,31 @@
+name: First-workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+     runs-on: ubuntu-latest
+     steps:
+       - name: print greeting
+         run: echo "Hello-world!!"
+       - name: message
+         run: echo "Hi Everyone, welcome!"
+       - name: print goodbye
+         run: echo "good-bye!"
+  second-job:
+     runs-on: ubuntu-latest
+     steps:
+       - name: print greeting
+         run: echo "Hello-world!!"
+       - name: message
+         run: echo "Hi Everyone, welcome!"
+       - name: print goodbye
+         run: echo "good-bye!"
+  third-job:
+     runs-on: ubuntu-latest
+     steps:
+       - name: print greeting
+         run: echo "Hello-world!!"
+       - name: message
+         run: echo "Hi Everyone, welcome!"
+       - name: print goodbye
+         run: echo "good-bye!"
+       
